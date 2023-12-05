@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/myStyle.css">
     <title>Java</title>
 </head>
 <body>
-<<<<<<< HEAD
     <!--Barra de navegación -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="assets/img/Logo_java.png" alt="Logo" width="90" height="53" class="d-inline-block align-text-top">
+          <a class="navbar-brand" href="https://www.java.com/es/">
+            <img src="assets/img/Logo_java.png" alt="Logo" width="90" height="53" class="d-inline-block align-text-bottom">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -21,13 +21,22 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Historia</a>
+                <a class="nav-link" href="#Historia">Historia</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Aplicaciones</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Aplicaciones
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Programación de videojuegos</a></li>
+                  <li><a class="dropdown-item" href="#">Computación en la nube</a></li>
+                  <li><a class="dropdown-item" href="#">Macrodatos</a></li>
+                  <li><a class="dropdown-item" href="#">Inteligencia Artificial</a></li>
+                  <li><a class="dropdown-item" href="#">Internet de las cosas</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Descarga</a>
@@ -37,9 +46,77 @@
         </div>
       </nav>
       <!-- Fin de barra -->
-      
-=======
-    <p>brauchidorito</p>
->>>>>>> aa0abca9e6a6bec9e45159ac3cafa4be4bf51b9b
+      <!-- Carrusel img -->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/carrusel_1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/minecraft-529459_1280.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/Macrodatos.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/robot.png"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/cloud.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       <!--Cierre carrusel-->
+       <!-- Home -->
+       <div id="Home" class="container">
+        <div class="row">
+          <div class="col">
+            <h1>¿Que es Java?</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div id="intro" class="col-9">
+            <p>Java es un lenguaje de programación ampliamente utilizado para codificar aplicaciones web. Ha sido una opción popular entre los desarrolladores durante más de dos décadas, con millones de aplicaciones Java en uso en la actualidad. Java es un lenguaje multiplataforma, orientado a objetos y centrado en la red que se puede utilizar como una plataforma en sí mismo. Es un lenguaje de programación rápido, seguro y confiable para codificarlo todo, desde aplicaciones móviles y software empresarial hasta aplicaciones de macrodatos y tecnologías del servidor.</p>
+            <p>Las herramientas de desarrollo de software nuevas y mejoradas están llegando al mercado a un ritmo notable, desplazando a los productos tradicionales que antes se consideraban indispensables. A la luz de este cambio continuo, la longevidad de Java es impresionante. Más de dos décadas después de su creación, Java sigue siendo el lenguaje más popular para el desarrollo de software de aplicaciones y los desarrolladores continúan eligiéndolo en lugar de lenguajes como Python, Ruby, PHP, Swift, C++ y otros. Como resultado, Java sigue siendo un requisito importante para competir en el mercado laboral.</p>
+          </div>
+          <div class="col-3">
+            <img class="img-fluid" id="logobw" src="assets/img/logo_bw.png" width="300" height="300" alt="Java logo">
+          </div>
+        </div>
+       </div>
+       <!-- Cierre de home -->
+       <!-- Historia -->
+       <div id="Historia" class="container">
+          <div class="row">
+            <div class="col">
+              <h1>Historia</h1>
+            </div>
+          <div class="row">
+            <div id="hist" class="col-6">
+              <p>Java es actualmente reconocido como uno de los lenguajes de programación más ampliamente utilizado en todo el mundo, aunque su posición dominante no siempre fue evidente.</p>
+              <p>La historia de Java se remonta a la década de 1980, cuando el lenguaje de programación C era considerado el principal. En ese tiempo, C era conocido por su versatilidad y capacidad para abordar problemas complejos a nivel bajo mediante la programación estructurada. Sin embargo, la complejidad de los algoritmos llevó a la búsqueda de alternativas, y así surgió la programación orientada a objetos, encabezada por C++.</p>
+              <p>Java nació en 1991 con el nombre "OAK", que más tarde se cambió a "Green" debido a problemas legales, y finalmente adoptó la denominación actual de JAVA.</p>
+              <p>El propósito original de Java era crear un lenguaje similar a C++ en términos de estructura y sintaxis, fuertemente orientado a objetos, pero con su propia máquina virtual. La premisa fundamental era la capacidad de ser utilizado en cualquier arquitectura con el lema "Write Once, Run Anywhere" (Escríbelo una vez, ejecútalo en cualquier lugar).</p>
+              <p>En 1992, se presentó el proyecto Green, que incluía prototipos a bajo nivel. Entre 1993 y 1994, se trabajó en la presentación de un prototipo funcional llamado "hotJava", que demostró el potencial de Java.</p>
+              <p>En 1995, se lanzó la versión alfa de Java, y un año después, en 1996, se presentó el primer JDK (JDK 1.0). A partir de entonces, el desarrollo de Java ha sido constante, con la introducción continua de nuevos paquetes y bibliotecas.</p>
+              <p>En la actualidad, Java se destaca como uno de los lenguajes más influyentes en el ámbito de la programación, con una comunidad global de más de 4 millones de desarrolladores y una presencia en una amplia variedad de dispositivos. Además, con el surgimiento de Android, Java se ha consolidado como el lenguaje de programación móvil más utilizado en el mundo.</p>
+            </div>
+            <div class="col-6">
+              <img class="img-fluid" src="assets/img/developer.png" alt="">
+            </div>
+          </div> 
+          </div>
+       </div>
+       <!-- Cierre historia -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>   
 </body>
 </html>
