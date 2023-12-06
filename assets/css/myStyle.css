@@ -7,32 +7,14 @@
     font-size: larger;
 }
 body{
-    
+    background-color: aliceblue;
 }
 .carousel-item{
     margin-bottom: 3rem;
-    height: 800 !important;
 }
 
 #Home{
- 
     color: rgb(0, 0, 0);
-    animation-duration: 2s;
-    animation-name: fadein;
-    animation-delay: 5s;
-  }
-  
-  @keyframes fadein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 15%;
-      width: 100%;
-    
-    }
 }
 #logobw{
     margin: 1rem;
@@ -40,8 +22,15 @@ body{
 #intro{
     margin-top: 1rem;
     line-height: 1.4rem;
-    text-align: left;
+    text-align: justify ;
 }
 #hist{
-    text-align:left;
+    text-align:justify;
+}
+#developer{
+    margin-bottom: 3rem;
+}
+#aplicad{
+    margin-top: 2rem;
+    text-align: justify;
 }
