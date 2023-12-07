@@ -19,7 +19,7 @@
     font-size: larger;
 }
 body{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .carousel-item{
@@ -64,6 +64,7 @@ body{
     animation-timeline: view() ;
     animation-range: entry 5% cover 20%; 
 }
+
 @keyframes reveal {
     from{
         opacity: 0.2;
@@ -98,6 +99,26 @@ body{
         scale: 1;
       
     }
+}
+#Sun{
+    margin-bottom: 3rem;
+    position: relative;
+
+    animation:reveal linear both;
+    animation-timeline: view() ;
+    animation-range: entry 5% cover 20%; 
+}
+@keyframes reveal {
+    from{
+        opacity: 0.2;
+        scale: 0.95;
+        
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+      
+    }  
 }
 #Aplicaciones{
     position: relative;
@@ -305,6 +326,12 @@ body{
     animation-timeline: view() ;
     animation-range: entry 5% cover 20%; 
 }
+#cuerpocarta{
+    opacity: 0.5;
+}
+#cuerpocarta:hover{
+    opacity: 1;
+}
 
 @keyframes reveal {
     from{
@@ -317,8 +344,12 @@ body{
 }
 #Sugerencias{
     margin-top: 2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(66, 76, 80, 0.3);
    
+}
+#enviar{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .pie-pagina{
@@ -387,7 +418,7 @@ body{
     color: rgb(104, 104, 104);
 }
 .pie-pagina .grupo-2{
-    background-color: #000000;
+    background-color: rgb(59, 92, 105);
     padding: 15px 10px;
     text-align: center;
     color: #fff;
